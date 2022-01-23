@@ -11,21 +11,34 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
-    //galery ingresos
     <fragment
         android:id="@+id/nav_ingresos"
-        android:name="com.example.example_navigation.ui.gallery.GalleryFragment"
+        android:name="com.example.example_navigation.ui.ingresos.IngresosFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_ingresos" />
 
-    //slideshow egresos
     <fragment
         android:id="@+id/nav_egresos"
-        android:name="com.example.example_navigation.ui.slideshow.SlideshowFragment"
+        android:name="com.example.example_navigation.ui.egresos.EgresosFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_egresos" />
 
+    <fragment
+        android:id="@+id/nav_hoja"
+        android:name="com.example.example_navigation.ui.hojaDeRuta.HojaDeRutaFragment"
+        android:label="@string/menu_hoja"
+        tools:layout="@layout/fragment_hoja_de_ruta" />
 
+    <fragment
+        android:id="@+id/nav_flota"
+        android:name="com.example.example_navigation.ui.flota.FlotaFragment"
+        android:label="@string/menu_flota"
+        tools:layout="@layout/fragment_flota" />
 
+    <fragment
+        android:id="@+id/nav_config"
+        android:name="com.example.example_navigation.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
 
 </navigation>
